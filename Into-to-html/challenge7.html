@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    p{
+      font-family: Arial;
+      font-size: 12px;
+    }
+    .main-div{
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(121,82,179);
+      height: 45px;
+      align-items: center;
+      width: 630px;
+    }
+      
+  .download{
+    height: 27px;
+    width:100px;
+    background-color:  rgba(121,82,179);
+    color:white;
+    cursor:pointer;
+    border-style:solid;
+    border-color:white;
+    border-radius: 3px; 
+    border-width:1px;
+    transition: background-color 0.30s;
+  }
+
+  .download:hover{
+    background-color: rgba(105, 81, 81, 0.829);
+    color:white;
+    }
+    
+    .search{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 200px;
+      border-radius: 50px;
+      border-style: solid;
+    }
+
+    .search:focus{
+      outline: none;
+    }
+  </style>
+
+
+  <title> challenge7 </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+  
+
+  <body>
+    <div class="main-div"> 
+      
+      <div style="color: white;
+        margin-left: 10px;">
+       <p> Home </p>
+      </div>
+      
+      <div style="margin-left: 50px;">
+        <input class="search" type="text" 
+        placeholder="Search">
+      </div>
+      
+      <div style="margin-left: 50px;">
+        <button  class="download">
+           Download </button>
+      </div>
+   
+    </div>
+    
+  
+  </body>
+
+</html>

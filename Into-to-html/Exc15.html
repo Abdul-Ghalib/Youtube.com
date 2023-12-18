@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .grid1{
+      display: grid;
+      grid-template-columns: 200px 75px;
+    }
+
+    .grid2{
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+    }
+    
+    .grid3{
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+    }
+ </style>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Document</title>
+</head>
+  <body>
+    <div class="grid1">
+      <div style="background-color: lightblue;">
+      200px </div>
+      <div style="background-color: lightpink;">
+      75px </div>
+    </div>
+ 
+    <div class="grid2">
+     
+      <div style="background-color: lightblue;">
+      col1  </div>
+      <div style="background-color: lightpink;">
+         col2</div>
+      <div style="background-color: lightblue;">
+         col3 </div>
+   
+    </div>
+ 
+    <div class="grid3">
+      <div style="background-color: lightpink">
+      col1
+     </div>
+      <div style="background-color: lightpink">
+       col2
+        </div>
+      
+      <div style="background-color: lightpink">
+       col3
+       </div>
+      
+       <div style="background-color: lightpink">
+         col4
+       </div>
+      
+      <div style="background-color: lightpink">
+        col1
+       </div>
+      
+      <div style="background-color: lightpink">
+         col2 </div>
+      <div style="background-color: lightpink"> 
+        col3 </div>
+      <div style="background-color: lightpink">
+         col4 </div>
+    </div>
+ 
+  </body>
+</html>

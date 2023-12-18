@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> challenge6</title>
+    <style>
+      p{
+        font-family: Arial;
+      }
+      .tweet-button{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 16px;
+        padding-right: 16px;
+        background-color: white;
+        border-style:solid;
+        border-radius:5px;
+        background-color: rgb(29, 155, 240);
+        color:white;
+        border-width:2px;
+        border-color: rgb(29, 155, 240);
+        color:white;
+        font-weight:bold;
+        cursor:pointer;
+        margin-left: 70px;
+        transition: box-shadow 0.5s ;
+        vertical-align: middle;
+      }
+
+      .tweet-button:hover {
+        box-shadow:  5px 5px 10px rgba(0,0,0,0.15) ;
+      }
+
+      .cat{
+        height: 40px;
+        width: 40px;
+        border-radius: 100%; 
+        vertical-align: middle;
+        margin-left: 7px; 
+      }
+      
+      .div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+   </style>
+  </head>
+  
+  <body>
+    <div> 
+      <div class="div">
+        <div>
+          
+          <img class="cat" src="cat1.jpg">
+        </div> 
+        
+        <div style="line-height: 3px;
+          margin-left: 20px;width: 100px;">
+          <p style="font-weight: bold;"> oliver </p>
+          <p style="color: gray;font-size: 15px;">
+            the cat</p>
+          <p style="color: gray;font-size: 13px;">
+            popular </p>
+        </div>
+
+        <div style="margin-left: 100px;">
+          <button class="tweet-button"> Tweet </button>
+        </div>
+        
+        
+      </div>
+
+      <div class="div">
+        <div>
+          <img class="cat" src="cat2.jpg">
+        </div> 
+        
+        <div style="line-height: 3px;margin-left: 20px;
+        width: 100px;">
+          <p style="font-weight: bold;"> Deybola </p>
+          <p style="color: gray;font-size: 15px;">
+            Sleepy cat </p>
+          <p style="color: gray;font-size: 13px;">
+            popular </p>
+        </div>
+
+        <div style="margin-left: 100px;">
+          <button class="tweet-button"> Tweet </button>
+        </div>
+    
+      </div>
+    
+      <div class="div">
+        <div>
+          <img class="cat" src="cat5.jpg">
+        </div> 
+        
+        <div style="line-height: 3px;margin-left: 20px;
+          width: 100px;">
+          <p style="font-weight: bold;"> Mimi </p>
+          <p style="color: gray;font-size: 15px;">
+            Happy cat </p>
+          <p style="color: gray;font-size: 13px;">
+            popular </p>
+        </div>
+
+        <div style="margin-left: 100px;
+          width: 100px;">
+          <button class="tweet-button"> Tweet </button>
+        </div>
+        
+        
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    p{
+      font-family: Arial;
+    }
+  
+  .request-button{
+    height: 40px;
+    width:100px;
+    background-color: black;
+    color:white;
+    cursor:pointer;
+    border-style:solid;
+    transition: opacity 0.5s;
+    margin-top: 30px;
+  }
+
+    .later{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(0, 0, 0, 0.089);
+    color:black;
+    cursor:pointer;
+    border-style:solid;
+    transition: opacity 0.5s;
+    margin-top: 30px;
+    border-color:  rgb(250, 247, 247);
+    color:black;;
+  }
+
+    .request-button:hover{
+    opacity:0.7;
+    }
+
+    .ride{
+      font-size: 30px;
+    }
+
+    .pickup{
+      height: 30px;
+      display: block;
+      margin-top: 10px;
+      border-color: rgba(0, 0, 0, 0.089);
+      border-style: solid;
+      border-width: 1px;
+      background-color:  rgba(0, 0, 0, 0.089);
+      width: 50%;
+      border: none;
+    }
+
+    .dest{
+      height: 30px;
+      display: block;
+      margin-top: 5px;
+      border-color: rgba(0, 0, 0, 0.089);
+      border-style: solid;
+      border-width: 1px;
+      background-color:  rgba(0, 0, 0, 0.089);
+      width: 50%;
+      border: none;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+ 
+
+  <body>
+    <p> <span class="ride"> Request a ride now </span> </p>
+
+    <input class="pickup" type="text" 
+    placeholder="Enter pickup location">
+
+    <input class="dest" type="text" 
+    placeholder="Enter destination">
+  </body>
+
+     
+  <button class="request-button"> Request now </button>
+
+  <button class="later"> Schedule for later </button>
+  </html>

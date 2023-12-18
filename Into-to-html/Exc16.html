@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    .div1{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+    }
+
+    .div2{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      justify-content: space-between;
+    }
+  
+    .div3{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-color: gray;
+      border-style: solid;
+      align-items: center;
+      justify-content: space-between;
+    }
+  </style>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+  <body>
+    <div class="div1"> 
+      <div style="background-color: lightblue;
+      width: 200px;">
+        200px 
+      </div>
+      
+      <div style="background-color: lightpink;
+      width: 75px;">
+       75px 
+      </div>
+    </div>
+
+    <div class="div1"> 
+      <div style="background-color: lightblue;
+      width: 50px;">
+        200px 
+      </div>
+      
+      <div style="background-color: lightpink;
+      flex: 1;">
+       75px 
+      </div>
+      
+      <div style="background-color: lightblue;
+      width: 75px;">
+        200px 
+      </div>
+    </div>
+
+    <div class="div2"> 
+      <div style="background-color: lightpink;
+      width: 50px;">
+        item1 
+      </div>
+      
+      <div style="background-color: lightpink;
+      width: 50px;">
+        item2 
+      </div>
+     
+     <div style="background-color: lightpink;
+      width: 50px;">
+        item3 
+      </div>
+      
+      <div style="background-color: lightpink;
+      width: 50px;">
+        item4 
+      </div>
+    </div>
+
+    <div class="div3"> 
+      <div style="background-color: lightpink;
+      width: 40px;">
+        item1 
+      </div>
+      
+      <div style="background-color: lightpink;
+      width: 40px;">
+        item2 
+      </div>
+    
+    </div>
+  
+  </body>
+
+
+  </html>

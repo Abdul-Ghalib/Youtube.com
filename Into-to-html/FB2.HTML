@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+ rel="stylesheet">
+  <title> Facebook Friends </title>
+  <style>
+    p{
+      font-family: Roboto, Arial;
+      margin-top: 0;
+      margin-bottom: 0; 
+    }
+   
+    .cat2{
+      width: 145px;
+      height: 142px;
+      display: block;
+    }
+    
+    .add{
+      height: 30px;
+      width:100px;
+      background-color: rgb(29, 155, 240);
+      color:white;
+      cursor:pointer;
+      border-style:solid;
+      border-color: rgb(29, 155, 240);
+      border-radius: 3px; 
+      transition: background-color 0.25s; 
+      margin-top: 7px;
+      margin-left: 6px;
+    }
+
+    .add:hover{
+      background-color: rgb(10, 145, 235);
+    }
+
+    .oliver{
+      display: block;
+      font-weight: bold;
+      margin-left: 6px;
+    }
+    .friends{
+      display: block;
+      font-size: 13px;
+      color: rgba(0, 0, 0, 0.637);
+      margin-top: 5px;
+      display: inline-block;
+    }
+    
+    .div7{
+      border-color: black;
+      border-style: solid;
+      width: 145px;
+      border: none;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.363);
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 4px;
+    }
+    
+    .cat5{  
+      width: 25px;
+      height: 25px;
+      border-radius: 100px;
+      vertical-align: middle;
+    }
+    
+    .catdiv{
+      display: inline-block;
+      margin-left: 6px;
+    }
+
+    .catdiv2{
+      width: 145px;
+    }
+
+    .catgrid{
+      margin-left: 5%;
+      display: grid;
+      grid-template-columns: 150px 150px 150px;
+      column-gap: 10px;
+      align-items: center;
+      
+    }
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="catgrid"> 
+    <div class="div6">
+      <div class="catdiv2">
+        <img class="cat2" src="cat1.jpg">
+      </div>
+      
+      <div class="div7">
+        <p> <span class="oliver"> Oliver </span> </p>
+        <div class="catdiv">
+          <img class="cat5" src="cat5.jpg" >
+        </div>
+        <p class="friends"> 2 mutual friends </p>
+        <button class="add"> Add Friend </button>
+      </div>
+    </div>
+  
+    <div class="div6">
+      <div>
+        <img class="cat2" src="cat2.jpg">
+      </div>
+      
+      <div class="div7">
+        <p> <span class="oliver"> Deybola </span> </p>
+        <div class="catdiv">
+          <img class="cat5" src="cat5.jpg" >
+        </div>
+        <p class="friends"> 4 mutual friends </p>
+        <button class="add"> Add Friend </button>
+      </div>
+    </div>
+  
+    <div class="div6">
+      <div>
+        <img class="cat2" src="cat3.jpg">
+      </div>
+      
+      <div class="div7">
+        <p> <span class="oliver"> Mimi </span> </p>
+        <div class="catdiv">
+          <img class="cat5" src="cat5.jpg" >
+        </div>
+        <p class="friends"> 5 mutual friends </p>
+        <button class="add"> Add Friend </button>
+      </div>
+    </div>
+  
+  </div>
+
+</body>
+</html>
